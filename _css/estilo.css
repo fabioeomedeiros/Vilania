@@ -1,0 +1,130 @@
+@charset 'UFT-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Galdeano&family=Goldman&family=Roboto&family=Saira&family=Yatra+One&display=swap');
+
+/*
+font-family: 'Amarante', cursive;
+font-family: 'Galdeano', sans-serif;
+font-family: 'Goldman', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Saira', sans-serif;
+font-family: 'Yatra One', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor0: #f7f7f7;
+    --cor1: #070707;
+    --corA: #770099;
+    --text1: 'Amarante', cursive;
+    --text2: 'Galdeano', sans-serif;
+    --textn: 'Roboto', sans-serif;
+}
+
+html {
+    font-family: var(--textn) 
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+@media screen and (max-width: 2560px) {
+    
+    main {
+        max-width: 1920px;
+        margin: 0px auto;
+    }
+
+    header {
+        position: relative;
+        top: 0px;
+        height: 350px;
+        width: 100%;    
+    }
+
+    nav#menu {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        height: 100px;
+        z-index: 1;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    img#logo-img {
+        width: 50px;
+        height: 50px;
+        margin-top: 25px;
+        margin-left: 30px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px rgba(119, 0, 153, 1);
+    }
+
+    img#logo-img:hover {
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+    }
+
+    ul#navegador {
+        float: right;
+        height: 100px;
+        line-height: 100px;
+        margin-right: 15px;
+    }
+
+    ul#navegador li {
+        float: left;
+        list-style: none;
+        margin: 0px 5px;
+    }
+
+    ul#navegador li a {
+        text-decoration: none;
+        padding: 5px 25px;
+        border-radius: 5px;
+        color: var(--corA);
+        background-color: rgba(0,0,0,0.9);
+        box-shadow: 0px 0px 5px rgba(119, 0, 153, 0.7);
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    ul#navegador li a:hover {
+        color: var(--cor0);
+        box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+    }
+
+    div#banner {
+        background-image: url('../_imagens/banner1.jpg');
+        background-size: cover;
+        background-position: 0% 50%;
+        height: 350px;
+    }
+
+    div#banner h1, div#banner h2 {
+        color: var(--cor0);
+        text-align: center;
+        text-shadow: 3px 3px 3px rgba(119, 0, 153, 0.7);
+    }
+
+    div#banner h1 {
+        font-family: var(--text1);
+        padding-top: 150px;
+        font-size: 4em;
+    }
+
+    div#banner h2 {
+        font-family: var(--text2);
+        padding-top: 10px;
+        font-size: 2.5em;
+    }
+
+
+
+    
+}
