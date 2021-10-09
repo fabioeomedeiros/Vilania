@@ -24,10 +24,10 @@ font-family: 'Yatra One', cursive;
     /* --corc: #; */
     /* --cord: #; */
     /* --core: #; */
-    /* --text1: ; */
-    /* --text2: ; */
-    /* --textm: ; */
-    --textn: 'Roboto', sans-serif;
+    --text1: 'Amarante', cursive;
+    /* --text2: 'Roboto', sans-serif; */
+    --textn: 'Galdeano', sans-serif;
+
 }
 
 html {
@@ -48,7 +48,12 @@ body {
 
 /* CABEÇÁRIO */
 
+header#cabecario {
+    background-color: aqua;
+}
+
 ul#menu-principal {
+    float: right;
     list-style: none;
     padding: 5px; 
 }
@@ -72,11 +77,34 @@ ul#menu-principal li a:hover {
     border: 1px solid #c6c6c6;
 }
 
+div#banner {
+    text-align: center;
+}
 
+.titulo1 {
+    font-family: var(--text1);
+}
+
+/* SECTION */
+
+section#principal {
+    background-color: beige;
+    float: left;
+    width: 700px;
+}
+
+/* ASIDE */
+
+aside#lateral {
+    background-color: blanchedalmond;
+    float: right;
+    width: 500px;
+}
 
 /* RODAPÉ */
 
 footer#rodape {
+    clear: both;
     border-top: 1px solid var(--cor1);
 }
 
@@ -84,8 +112,8 @@ footer#rodape {
     background-color: aqua;
     width: 200px;
     float: left;
-    margin: 5px;
-    padding: 5px;
+    margin-right: 20px;
+    padding: 15px;
 }
 
 .boxes-rodape ul {
@@ -94,7 +122,6 @@ footer#rodape {
 
 .boxes-rodape ul li a {
     text-decoration: none;
-
 }
 
 #creditos {
