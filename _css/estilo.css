@@ -48,17 +48,16 @@ body {
 
 /* CABEÇÁRIO */
 
-#menu-principal {
-    float: right;
+ul#menu-principal {
     list-style: none;
     padding: 5px; 
 }
 
-#menu-principal li {
+ul#menu-principal li {
     display: inline-block;
 }
 
-#menu-principal li a {
+ul#menu-principal li a {
     text-decoration: none;
     padding: 3px 7px;
     background-color: #c6c6c6;
@@ -67,7 +66,7 @@ body {
     border: 1px solid var(--cor1);
 }
 
-#menu-principal li a:hover {
+ul#menu-principal li a:hover {
     background-color: var(--cor1);
     color: #c6c6c6;
     border: 1px solid #c6c6c6;
@@ -77,7 +76,7 @@ body {
 
 /* RODAPÉ */
 
-#rodape {
+footer#rodape {
     border-top: 1px solid var(--cor1);
 }
 
@@ -92,10 +91,6 @@ body {
 .boxes-rodape ul {
     list-style: none;
 }
-
-/* .boxes-rodape ul li {
-
-} */
 
 .boxes-rodape ul li a {
     text-decoration: none;
