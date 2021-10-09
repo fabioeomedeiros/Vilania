@@ -17,3 +17,19 @@
     - Acessórios fitness
     - Acessórios pra EDC (fazer pesquisa nos sites e criar uma conta no instagram)
 
+
+# CRIAR A LOJA  
+    - Criar um e-mail *só para a loja* _(Gmail)_
+    - Criar uma conta nos *fornecedores*
+        -- Ali Express (avaliar os tipos de envios. *PRINCIPAL*: AliExpress Standard Shipping, *EVITAR: E-packt*)
+
+# CRIAR UM DOMÍNIO
+    - Hostgator, Hostnet (curso em vídeo) *SSL* é *IMPORTANTE*
+
+# CRIAR UMA CONTA DE PAGAMENTO
+    - Mercado PAgo (mais utilizado)
+
+# CRIAR O NOME DA LOJA
+    -
+
+
